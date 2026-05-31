@@ -26,7 +26,7 @@ Add: netproto and pthread
 7. 	Choose the file and verify the Go-Back-N protocol operation.
 
 ## 💻 Program
-```
+```c
 #include <stdio.h>
 
 #define window_size 4  // Assume 7 frames of data are to be sent using Go-Back-N ARQ
